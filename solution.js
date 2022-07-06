@@ -59,7 +59,23 @@ worldCities.splice(2, 1, "Toronto");
 
 // 12
 
+console.log(worldCities);
 worldCities.splice(1, 0, "Washington");
+console.log(worldCities);
 
 // 13
 console.log(worldCities.join(" + "));
+
+// ZUSATZ
+
+const greeting = "Hello World";
+const reverse = greeting.split("").reverse().join("");
+console.log(reverse);
+
+const figuren = ["Iron Man"];
+const parents = ["Anja", "Christian"];
+const zusammen = figuren.concat(parents);
+zusammen.push("Medo", "Otto");
+zusammen.reverse();
+zusammen[2] = "TEST";
+console.log(zusammen);
